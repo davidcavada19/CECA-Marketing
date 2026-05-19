@@ -9,7 +9,7 @@ const content = {
     h1_stress: "STRESS.",
     h1_3: "REAL",
     h1_4: "RESULTS.",
-    subtitle: "We help Houston service businesses get more customers consistently — with high-converting websites, automation, and ads that actually work.",
+    subtitle: "We help local service businesses get more customers consistently — with high-converting websites, automation, and ads that actually work.",
     cta1: "Get Your FREE Website",
     cta2: "Our Services",
     stat1_label: "Website delivery",
