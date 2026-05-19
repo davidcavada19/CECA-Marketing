@@ -16,7 +16,7 @@ export default function HomeEs() {
         </div>
       </nav>
 
-      <section className="relative min-h-screen flex flex-col justify-center px-6 pt-24 pb-20 overflow-hidden">
+      <section className="relative min-h-screen flex flex-col justify-center px-6 pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1800&q=80" alt="" className="w-full h-full object-cover" style={{animation:"slowZoom 8s ease-in-out infinite", willChange:"transform", transformOrigin:"center center"}} />
           <div className="absolute inset-0" style={{background:"linear-gradient(to bottom, rgba(15,23,42,0.85) 0%, rgba(15,23,42,0.75) 50%, rgba(15,23,42,0.95) 100%)"}}></div>
