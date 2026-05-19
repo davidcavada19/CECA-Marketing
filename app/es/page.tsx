@@ -44,7 +44,7 @@ export default function HomeEs() {
         </div>
       </section>
 
-      <section id="servicios" className="py-24 px-6" style={{background:"linear-gradient(to bottom, #0f172a 0%, #f5f0eb 50%)"}}>
+      <section id="servicios" className="bg-[#f5f0eb] py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <p className="text-orange-600 text-xl md:text-3xl font-black uppercase mb-2">Lo que hacemos</p>
           <h2 className="text-4xl md:text-5xl font-black text-[#0f172a] mb-4">SISTEMAS QUE TRAEN CLIENTES<br />MIENTRAS TU TRABAJAS</h2>
