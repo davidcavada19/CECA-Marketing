@@ -1,5 +1,4 @@
 ﻿"use client";
-import { useState } from "react";
 
 const content = {
   en: {
@@ -164,7 +163,7 @@ const nichesEn = [
 ];
 
 export default function Home() {
-  const [lang, setLang] = useState<"en" | "es">("en");
+  const lang = "en";
   const t = content[lang];
 
   return (
@@ -174,8 +173,8 @@ export default function Home() {
           <span className="font-black text-lg md:text-2xl tracking-tight"><span className="text-white">CECA</span><span className="text-orange-500"> Marketing</span></span>
           <div className="flex items-center gap-4">
             <div className="flex items-center bg-white/10 rounded-full p-1">
-              <button onClick={() => setLang("en")} className={`px-3 py-1 rounded-full text-xs font-bold transition ${lang === "en" ? "bg-orange-600 text-white" : "text-zinc-400 hover:text-white"}`}>EN</button>
-              <button onClick={() => setLang("es")} className={`px-3 py-1 rounded-full text-xs font-bold transition ${lang === "es" ? "bg-orange-600 text-white" : "text-zinc-400 hover:text-white"}`}>ES</button>
+              <span className="px-3 py-1 rounded-full text-xs font-bold bg-orange-600 text-white">EN</span>
+              <a href="/es" className="px-3 py-1 rounded-full text-xs font-bold transition text-zinc-400 hover:text-white">ES</a>
             </div>
             <a href="#contacto" className="bg-orange-600 hover:bg-orange-700 text-white px-3 py-2 text-xs md:px-5 md:text-sm font-semibold transition hidden md:block">{t.nav_cta}</a>
           </div>
