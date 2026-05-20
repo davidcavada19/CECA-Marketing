@@ -75,8 +75,8 @@ export default function HomeEs() {
       <section className="bg-[#f5f0eb] py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <p className="text-orange-600 text-xl md:text-3xl font-black uppercase mb-2">A quien ayudamos</p>
-          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">NEGOCIOS DE SERVICIOS<br />EN HOUSTON, TX</h2>
-          <p className="text-zinc-600 text-lg max-w-xl mb-16">Si tienes un negocio de servicios en Houston o el area metropolitana, trabajamos contigo.</p>
+          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">NEGOCIOS DE SERVICIOS<br />CON LOS QUE TRABAJAMOS</h2>
+          <p className="text-zinc-600 text-lg max-w-xl mb-16">Si tienes un negocio de servicios local, te ayudamos a conseguir mas clientes de forma consistente.</p>
           <div className="grid grid-cols-3 md:grid-cols-4 gap-4">
             {[{name:"AC y Calefaccion",icon:"❄️"},{name:"Electricistas",icon:"⚡"},{name:"Plomeros",icon:"🔧"},{name:"Jardineria",icon:"🌿"},{name:"Limpieza de Casas",icon:"🏠"},{name:"Remodelacion",icon:"🔨"},{name:"Ventanas y Puertas",icon:"🪟"},{name:"Pintura",icon:"🎨"}].map((n,i) => (
               <div key={i} className="bg-white border border-zinc-200 p-6 text-center flex flex-col items-center gap-2">
