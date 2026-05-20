@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CECA Marketing | More Clients. Less Stress. Real Results.",
     description: "High-converting websites, CRM automations, and local ads for service businesses.",
-    url: "https://ceca-marketing.vercel.app",
+    url: "https://www.cecamarketing.com",
     siteName: "CECA Marketing",
     locale: "en_US",
     type: "website",
@@ -29,7 +29,15 @@ export const metadata: Metadata = {
     title: "CECA Marketing | Digital Marketing for Service Businesses",
     description: "We help local service businesses get more clients consistently.",
   },
+  alternates: {
+    canonical: "https://www.cecamarketing.com",
+    languages: {
+      "en-US": "https://www.cecamarketing.com",
+      "es-MX": "https://www.cecamarketing.com/es",
+    },
+  },
 };
+
 
 export default function RootLayout({
   children,
